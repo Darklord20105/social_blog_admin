@@ -1,0 +1,87 @@
+body {
+    margin-left:2rem;
+    margin-right: 2rem;
+}
+.FlexProfileDrawer {
+    display: flex;
+    flex-direction:row;
+    margin-top: 20px;
+    margin-left: -90px;
+    margin-right: 25px;
+}
+.FlexColumnProfile > h1 {
+    text-align: center;
+}
+.FlexProfileDrawerRow {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.FlexColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.FlexRow {
+    display: flex;
+    flex-direction : row;
+}
+
+.CardStyles {
+    opacity: 1;
+    animation: fadeIn 2s ease-in ;
+}
+
+.CommentStyle {
+    opacity: 1;
+    animation: fadeIn 2s ease-in;
+}
+
+.FadeOutComment {
+    animation: fadeOut linear 2s;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        width:0;
+        height:0;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.notification-num-posts {
+    padding-left: 5px;
+}
+
+.notification-num-showpost {
+    position: relative;
+    padding: 5px 9px;
+    background-color: red;
+    border-radius: 50%;
+    color: #f4f4f4;
+    bottom: 23px;
+    right: 5px;
+    z-index: -1;
+}
+
+
+.pagination {
+   list-style: none;
+   border-radius: .25rem;
+}

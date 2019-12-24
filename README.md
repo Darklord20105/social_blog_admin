@@ -1,1 +1,1 @@
-# social_blog_admin
+# react-redux-app-sample
